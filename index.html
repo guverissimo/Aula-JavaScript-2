@@ -34,17 +34,46 @@
 
         //convertendo de string para inteiro
         let numString1 = "321.445"
-        console.log(parseInt(numString1))
+        console.log(parseInt(numString1));
 
         //convertendo de float para string
         let numFloat1 = 457.685;
-        console.log(numFloat1.toString())
+        console.log(numFloat1.toString());
 
         // Verifica o tipo de varivael
-        let number ="487.99"
-        let verificar = typeof number
-        console.log(verificar)
-        console.log(typeof(number))
+        let number ="487.99";
+        let verificar = typeof number;
+        console.log(verificar);
+        console.log(typeof(number));
+
+        // contador de caracteres 
+        let senha = "minha senha é forte";
+        //alert(senha.length)
+
+        //  Retornando o inicio da posição do caractere
+        //  Primeiro caracter que encontrar;
+        let texto1 ="O mundo de tecnologia"
+        console.log(texto1.indexOf("o"));
+
+        // Retornando o final da posição do caractere
+        // Ultimo caractere que encontrar
+        let texto2 = "O mundo de tecnologia";
+        console.log(texto2.lastIndexOf("o"));
+
+        // Passando informações para a tela
+
+        document.write("Informações para tela<br>");
+        document.write("O mundo de tecnologia<br><br>");
+        document.write("Hardware e Software<br>");
+
+        // Passando informações para tela concatenando
+
+        let nome2 = "Gustavo";
+        let idade = 20;
+
+        document.write("Meu nome é Aluno " + nome2 + "<br>")
+        document.write("Meu nome é " + nome2 + " e tenho " + idade + " anos.")
+
 
 
     </script>
